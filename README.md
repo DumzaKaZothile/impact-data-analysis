@@ -1,41 +1,33 @@
-# Impact Data Analysis Portfolio Project
+# Impact Data Analysis — Portfolio Project
 
-## About This Project
+## Purpose
+This project demonstrates a structured approach to analysing programme participation and follow-up survey data. The dataset is **synthetic** and is not based on real participants or actual client results.
 
-This project demonstrates my developing skills in data analysis, data quality management and impact reporting. It uses a fictional dataset to explore how programme participation and learner follow-up survey information can be organised, validated and analysed.
+## Questions to explore
+1. How many participants are recorded by province and workshop?
+2. What is the survey response rate by workshop?
+3. What changes are reported between a fictional pre-workshop score and post-workshop score?
+4. Are there missing values, duplicate participant IDs or inconsistent categories?
+5. What limitations should be explained before interpreting the results?
 
-## About Me
+## Files
+- `synthetic_impact_data.csv` — fictional sample records.
+- `data_dictionary.md` — field definitions.
+- `analysis_plan.md` — suggested data-quality checks and reporting steps.
 
-I am a Data & Project Analyst based in Gauteng, South Africa. My professional experience includes Power BI reporting, Microsoft Excel, data cleaning and validation, project coordination, impact measurement support and manual quality assurance testing.
+## Suggested workflow
+1. Open the CSV in Excel and format the data as a table.
+2. Check duplicate IDs, missing fields, valid ranges and category consistency.
+3. Use PivotTables or Power BI to summarise participants by province and workshop.
+4. Calculate response rate using the number of completed follow-up surveys divided by eligible participants.
+5. Compare pre- and post-workshop scores only for records with both values.
+6. Document sample size, missing data and limitations alongside any charts.
 
-I am building this portfolio to demonstrate my practical skills, document my learning and develop my capabilities in data analysis and reporting.
+## Suggested visuals
+- Participants by province (bar chart)
+- Survey completion rate by workshop (bar chart)
+- Average pre- and post-workshop score (clustered column chart)
+- Missing-data summary (bar chart or table)
 
-## Project Objectives
-
-- Organise structured programme data for analysis.
-- Identify missing values and potential data-quality issues.
-- Explore participation and follow-up survey response rates.
-- Compare fictional pre-workshop and post-workshop knowledge scores.
-- Identify useful reporting indicators for a Power BI dashboard.
-- Document findings, limitations and recommendations clearly.
-
-## Tools and Skills
-
-- Microsoft Excel
-- Power BI
-- Data cleaning and validation
-- Data visualisation
-- Impact reporting
-- Documentation and quality checks
-
-## Data Privacy
-
-All sample records used in this portfolio project are fictional. They do not represent actual Siyakha Consulting participants, clients or programme outcomes.
-
-## Project Status
-
-**In progress:** Developing the sample dataset, performing data-quality checks and preparing analysis and visualisations.
-
-## Learning Goals
-
-I am using this project to strengthen my analytical thinking, improve my reporting skills and build a portfolio that demonstrates how I approach practical data challenges.
+## Important interpretation note
+A change in survey scores is not, by itself, proof that a workshop caused the change. Report the sample size, missing responses and any limitations. Do not claim impact beyond what the data supports.
